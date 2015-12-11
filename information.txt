@@ -1,0 +1,6 @@
+undefined
+28.5C 45% Fri Dec 11 2015 19:00:00 GMT+1000 (AEST)undefined
+28.5C 45% Fri Dec 11 2015 19:00:35 GMT+1000 (AEST)Current Weather
+28.5C 45% Fri Dec 11 2015 19:01:09 GMT+1000 (AEST)
+Current Weather
+28.5C 45% Fri Dec 11 2015 19:01:48 GMT+1000 (AEST)
