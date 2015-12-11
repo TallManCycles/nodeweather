@@ -5,6 +5,7 @@ var app = express();
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })) // support endcoded bodies
 
+// Posts temp and humidity
 app.post('/post', function(req,res){
 	var temp = req.body.temperature;
 	var humidity = req.body.humidity;
@@ -32,6 +33,7 @@ app.post('/post', function(req,res){
 	});	
 })
 
+//gets the last updated temp and humidity
 app.get('/current', function (req,res){
 		
 	fs.readFile(__dirname + '/information.txt', 'utf8', function(err, data) {
